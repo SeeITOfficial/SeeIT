@@ -69,7 +69,7 @@ while True:
         use_auto = not use_auto
     elif key == ord('h'):
         show_help = not show_help
-    elif key == 27:
+    elif key == 27: #end program
         break
 
 cv.destroyAllWindows()
